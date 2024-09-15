@@ -27,7 +27,8 @@ func Vaporcode(s string) string {
 	// return res1
 	fmt.Println(res1)
 
-	// add spaces
+	// add spaces where necessary
+
 	var res2 string
 
 	for _, val := range res1 {
